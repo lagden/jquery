@@ -28,7 +28,7 @@ define([
 	"./dimensions",
 	// "./deprecated",
 	"./exports/amd",
-	// "./exports/global"
+	"./exports/global" // para que o shim funcione
 ], function( jQuery ) {
 
 return jQuery;
